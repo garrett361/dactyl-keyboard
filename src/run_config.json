@@ -29,32 +29,16 @@
   "default_1U_cluster": true,
   "trackball_in_wall": false,
   "tbiw_ball_center_row": 0.2,
-  "tbiw_translational_offset": [
-    0.0,
-    0.0,
-    0.0
-  ],
-  "tbiw_rotation_offset": [
-    0.0,
-    0.0,
-    0.0
-  ],
+  "tbiw_translational_offset": [0.0, 0.0, 0.0],
+  "tbiw_rotation_offset": [0.0, 0.0, 0.0],
   "tbiw_left_wall_x_offset_override": 50.0,
   "tbiw_left_wall_z_offset_override": 0.0,
   "tbiw_left_wall_lower_y_offset": 0.0,
   "tbiw_left_wall_lower_z_offset": 0.0,
   "tbiw_oled_center_row": 0.75,
-  "tbiw_oled_translation_offset": [
-    -3.5,
-    0,
-    1.5
-  ],
-  "tbiw_oled_rotation_offset": [
-    0,
-    0,
-    0
-  ],
-  "other_thumb": "ITSYDOX",
+  "tbiw_oled_translation_offset": [-3.5, 0, 1.5],
+  "tbiw_oled_rotation_offset": [0, 0, 0],
+  "other_thumb": "MINIDOX",
   "ball_side": "right",
   "trackball_modular": false,
   "trackball_Usize": 1.5,
@@ -65,36 +49,12 @@
   "trackball_hole_height": 40,
   "trackball_plate_thickness": 3,
   "trackball_plate_width": 2,
-  "tb_socket_translation_offset": [
-    0,
-    0,
-    2.0
-  ],
-  "tb_socket_rotation_offset": [
-    0,
-    0,
-    -50
-  ],
-  "tb_btu_socket_translation_offset": [
-    0,
-    0,
-    -20.0
-  ],
-  "tb_btu_socket_rotation_offset": [
-    0,
-    0,
-    40
-  ],
-  "tb_sensor_translation_offset": [
-    0,
-    0,
-    0
-  ],
-  "tb_sensor_rotation_offset": [
-    0,
-    0,
-    0
-  ],
+  "tb_socket_translation_offset": [0, 0, 2.0],
+  "tb_socket_rotation_offset": [0, 0, -50],
+  "tb_btu_socket_translation_offset": [0, 0, -20.0],
+  "tb_btu_socket_rotation_offset": [0, 0, 40],
+  "tb_sensor_translation_offset": [0, 0, 0],
+  "tb_sensor_rotation_offset": [0, 0, 0],
   "pinky_1_5U": false,
   "first_1_5U_row": 0,
   "last_1_5U_row": 5,
@@ -112,32 +72,11 @@
   "wall_base_x_thickness": 4.5,
   "wall_base_back_thickness": 4.5,
   "fixed_angles": [
-    0.17453277777777776,
-    0.17453277777777776,
-    0,
-    0,
-    0,
-    -0.26179916666666664,
+    0.17453277777777776, 0.17453277777777776, 0, 0, 0, -0.26179916666666664,
     -0.26179916666666664
   ],
-  "fixed_x": [
-    -41.5,
-    -22.5,
-    0,
-    20.3,
-    41.4,
-    65.5,
-    89.6
-  ],
-  "fixed_z": [
-    12.1,
-    8.3,
-    0,
-    5,
-    10.7,
-    14.5,
-    17.5
-  ],
+  "fixed_x": [-41.5, -22.5, 0, 20.3, 41.4, 65.5, 89.6],
+  "fixed_z": [12.1, 8.3, 0, 5, 10.7, 14.5, 17.5],
   "fixed_tenting": 0.0,
   "plate_style": "NOTCH",
   "hole_keyswitch_height": 14.0,
@@ -160,6 +99,7 @@
   "oled_mount_type": null,
   "oled_center_row": 1.25,
   "oled_horizontal": false,
+<<<<<<< HEAD
   "oled_translation_offset": [
     0,
     0,
@@ -170,6 +110,11 @@
     0,
     0
   ],
+=======
+  "oled_translation_offset": [0, 0, 4],
+  "oled_rotation_offset": [0, 0, 0],
+  "logo_offsets": [-10, -10, -1],
+>>>>>>> 6cd80f7 (formatting and minidox left thumb)
   "web_thickness": 4.0,
   "post_size": 0.1,
   "post_adj": 0,
@@ -206,10 +151,7 @@
   "screw_cbore_diameter": 6,
   "screw_cbore_depth": 4,
   "plate_holes": false,
-  "plate_holes_xy_offset": [
-    0.0,
-    0.0
-  ],
+  "plate_holes_xy_offset": [0.0, 0.0],
   "plate_holes_width": 14.3,
   "plate_holes_height": 14.3,
   "plate_holes_diameter": 1.7,
@@ -221,68 +163,20 @@
   "pcb_hole_pattern_width": 14.3,
   "pcb_hole_pattern_height": 14.3,
   "column_offsets": [
-    [
-      0,
-      0,
-      0
-    ],
-    [
-      0,
-     8,
-      0
-    ],
-    [
-      0,
-      10.75,
-      -4.5
-    ],
-    [
-      0,
-      8,
-      0
-    ],
-    [
-      1,
-      -14,
-      4
-    ] 
+    [0, 0, 0],
+    [0, 8, 0],
+    [0, 10.75, -4.5],
+    [0, 8, 0],
+    [1, -14, 4]
   ],
   "screw_offsets": [
-    [
-      0,
-      0,
-      0
-    ],
-    [
-      0,
-      -4,
-      0
-    ],
-    [
-      0,
-      0,
-      0
-    ],
-    [
-      0,
-      0,
-      0
-    ],
-    [
-      0,
-      0,
-      0
-    ],
-    [
-      0,
-      0,
-      0
-    ],
-    [
-      0,
-      0,
-      0
-    ]
+    [0, 0, 0],
+    [0, -4, 0],
+    [0, 0, 0],
+    [0, 0, 0],
+    [0, 0, 0],
+    [0, 0, 0],
+    [0, 0, 0]
   ],
   "layouts": null
 }
