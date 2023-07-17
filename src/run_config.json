@@ -99,22 +99,9 @@
   "oled_mount_type": null,
   "oled_center_row": 1.25,
   "oled_horizontal": false,
-<<<<<<< HEAD
-  "oled_translation_offset": [
-    0,
-    0,
-    4
-  ],
-  "oled_rotation_offset": [
-    0,
-    0,
-    0
-  ],
-=======
   "oled_translation_offset": [0, 0, 4],
   "oled_rotation_offset": [0, 0, 0],
   "logo_offsets": [-10, -10, -1],
->>>>>>> 6cd80f7 (formatting and minidox left thumb)
   "web_thickness": 4.0,
   "post_size": 0.1,
   "post_adj": 0,
