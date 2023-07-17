@@ -1,5 +1,5 @@
---- run_config.json	2023-07-16 21:44:51
-+++ run_config_original.json	2023-07-16 19:41:48
+--- run_config.json	2023-07-17 11:53:05
++++ run_config_original.json	2023-07-17 11:37:21
 @@ -4,27 +4,27 @@
    "save_dir": ".",
    "overrides": "",
@@ -7,7 +7,8 @@
 -  "config_name": "3x5",
 +  "config_name": "5x6",
    "logo_file": null,
-   "show_caps": false,
+-  "show_caps": true,
++  "show_caps": false,
    "show_pcbs": false,
    "resin": false,
 -  "nrows": 3,
@@ -41,7 +42,7 @@
    "tbiw_oled_center_row": 0.75,
    "tbiw_oled_translation_offset": [-3.5, 0, 1.5],
    "tbiw_oled_rotation_offset": [0, 0, 0],
--  "other_thumb": "MINIDOX",
+-  "other_thumb": "MINITHICC3",
 +  "other_thumb": "DEFAULT",
    "ball_side": "right",
    "trackball_modular": false,
@@ -50,18 +51,27 @@
    "pinky_1_5U": false,
    "first_1_5U_row": 0,
    "last_1_5U_row": 5,
--  "extra_width": 4.5,
+-  "extra_width": 4,
 -  "extra_height": 1.0,
 +  "extra_width": 2.5,
 +  "extra_height": 0.5,
    "wall_z_offset": 15,
    "wall_x_offset": 5,
    "wall_y_offset": 6,
+@@ -120,7 +120,7 @@
+   "external_holder_width": 29.2,
+   "blackpill_holder_width": 32.0,
+   "blackpill_holder_xoffset": -6.5,
+-  "external_holder_xoffset": -4.0,
++  "external_holder_xoffset": -5.0,
+   "external_holder_yoffset": -4.5,
+   "usb_c_width": 9.5,
+   "usb_c_height": 3.5,
 @@ -150,11 +150,15 @@
    "pcb_hole_pattern_width": 14.3,
    "pcb_hole_pattern_height": 14.3,
    "column_offsets": [
--    [2, -4, 0],
+-    [1, -2, 0],
      [0, 0, 0],
 -    [0, 2.75, -4.5],
      [0, 0, 0],
