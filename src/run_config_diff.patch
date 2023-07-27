@@ -1,5 +1,5 @@
---- run_config.json	2023-07-25 22:50:49
-+++ run_config_original.json	2023-07-17 11:37:21
+--- src/run_config.json	2023-07-27 19:33:04
++++ src/run_config_original.json	2023-07-17 11:37:21
 @@ -4,27 +4,27 @@
    "save_dir": ".",
    "overrides": "",
@@ -30,7 +30,7 @@
    "inner_column": false,
 -  "all_last_rows": true,
 -  "full_last_rows": true,
--  "keyboard_z_offset": 30,
+-  "keyboard_z_offset": 15,
 -  "thumb_style": "MINITHICC3",
 +  "all_last_rows": false,
 +  "full_last_rows": false,
