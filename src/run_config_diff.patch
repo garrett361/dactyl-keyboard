@@ -1,4 +1,4 @@
---- src/run_config.json	2023-07-27 19:33:04
+--- src/run_config.json	2023-07-27 19:38:11
 +++ src/run_config_original.json	2023-07-17 11:37:21
 @@ -4,27 +4,27 @@
    "save_dir": ".",
@@ -48,17 +48,15 @@
    "ball_side": "right",
    "trackball_modular": false,
    "trackball_Usize": 1.5,
-@@ -58,8 +58,8 @@
+@@ -58,7 +58,7 @@
    "pinky_1_5U": false,
    "first_1_5U_row": 0,
    "last_1_5U_row": 5,
 -  "extra_width": 4,
--  "extra_height": 1.0,
 +  "extra_width": 2.5,
-+  "extra_height": 0.5,
+   "extra_height": 0.5,
    "wall_z_offset": 15,
    "wall_x_offset": 5,
-   "wall_y_offset": 6,
 @@ -120,7 +120,7 @@
    "external_holder_width": 29.2,
    "blackpill_holder_width": 32.0,
